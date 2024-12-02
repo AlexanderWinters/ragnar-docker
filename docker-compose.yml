@@ -1,0 +1,6 @@
+services:
+  ragnar:
+    container_name: ragnar
+    image: ragnar:latest
+    ports:
+      - 3000:8501
